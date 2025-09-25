@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - About</title>
+    <title>Portfolio - Projects</title>
     <link rel="stylesheet" href="/storage/emulated/0/power learn project /portfolio css/style8.css">
 </head>
 <body>
@@ -20,23 +20,18 @@
         </nav>
     </header>
     <main>
-        <section class="bio">
-            <h1>About Me</h1>
-            <img src="images/profile.jpg" alt="Profile">
-            <p>I'm Odilia. Im skilled in web dev, AI, and more.</p>
-        </section>
-        <section class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-            </ul>
-        </section>
-        <section class="timeline">
-            <h2>Timeline</h2>
-            <div>2023: Started learning web dev.</div>
-            <div>2025: Built this portfolio.</div>
+        <section class="projects-grid">
+            <h1>My Projects</h1>
+            <div class="grid">
+                <div class="card">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description here.</p>
+                    <button onclick="toggleDetails(this)">More</button>
+                    <div class="details" style="display:none;">Extra info.</div>
+                </div>
+                <!-- Repeat for 2-3 more cards -->
+            </div>
         </section>
     </main>
     <footer>
