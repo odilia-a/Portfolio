@@ -4,6 +4,7 @@ My Portfolio✨
 A personal portfolio showcasing my web dev skills.
 
 🌟 Project Structure
+
 /portfolio 
   ├── index.html        # Landing page
   ├── about.html        # About page
