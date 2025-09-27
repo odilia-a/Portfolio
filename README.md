@@ -12,6 +12,6 @@ A personal portfolio showcasing my web dev skills.
   ├── css/
   │     └── style.css   # Main stylesheet
   ├── js/
-  │     └── main.js     # Carousel & lightbox logic
+  │     └── main.js     # javascript
 
 🔗Live URL: https://odilia-a.github.io/Portfolio/
